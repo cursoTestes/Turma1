@@ -8,13 +8,24 @@
 	<vendedor id="6" nome="Arlindo Cruz" />
 	<vendedor id="7" nome="Toledo" />
 
-	<venda id="1" valor="100" dataVenda="2011-02-03" vendedor_id="1" />
+	<venda id="1" valor="100" dataVenda="2011-02-03" />
+	<venda id="2" valor="200" dataVenda="2012-02-03" />
+	<venda id="3" valor="200" dataVenda="2012-02-03" />
+	<venda id="4" valor="400" dataVenda="2012-02-03" />
+	<venda id="5" valor="400" dataVenda="2013-02-03" />
+	<venda id="6" valor="400" dataVenda="2013-02-03" />
 	
-	<venda id="2" valor="200" dataVenda="2012-02-03" vendedor_id="6" />
-	<venda id="3" valor="200" dataVenda="2012-02-03" vendedor_id="6" />
-	<venda id="4" valor="400" dataVenda="2012-02-03" vendedor_id="7" />
+	<venda id="7" valor="250" dataVenda="2014-02-03" />
 	
-	<venda id="5" valor="400" dataVenda="2013-02-03" vendedor_id="7" />
-	<venda id="6" valor="400" dataVenda="2013-02-03" vendedor_id="7" />
+	
+	<vendavendedor id="1" vendedor_id="1" venda_id="1" valorparticipacao="100" />
+	<vendavendedor id="2" vendedor_id="6" venda_id="2" valorparticipacao="200" />
+	<vendavendedor id="3" vendedor_id="6" venda_id="3" valorparticipacao="200" />
+	<vendavendedor id="4" vendedor_id="7" venda_id="4" valorparticipacao="400" />
+	<vendavendedor id="5" vendedor_id="7" venda_id="5" valorparticipacao="400" />
+	<vendavendedor id="6" vendedor_id="7" venda_id="6" valorparticipacao="400" />
+	
+	<vendavendedor id="7" vendedor_id="3" venda_id="7" valorparticipacao="200" />
+	<vendavendedor id="8" vendedor_id="5" venda_id="7" valorparticipacao="50" />
 
 </dataset>

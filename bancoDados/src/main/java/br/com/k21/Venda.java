@@ -4,7 +4,6 @@ import java.util.Date;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
-import javax.persistence.ManyToOne;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 
@@ -17,9 +16,6 @@ public class Venda
     @Temporal(TemporalType.TIMESTAMP)
     private Date dataVenda;
     
-    @ManyToOne
-    private Vendedor vendedor;
-   
     
     private Double valor;
        
@@ -46,14 +42,5 @@ public class Venda
 	public void setDataVenda(Date dataVenda) {
 		this.dataVenda = dataVenda;
 	}
-
-	public Vendedor getVendedor() {
-		return vendedor;
-	}
-
-	public void setVendedor(Vendedor vendedor) {
-		this.vendedor = vendedor;
-	}
-	
 	
 }
